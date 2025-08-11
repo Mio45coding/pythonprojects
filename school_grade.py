@@ -40,5 +40,5 @@ if st.button('Check student scores'):
     studentdict = {'Name':name,'Subjects':subjects,'total':totalscore,'average':average,'grade':grade}
 
 
-st.write(studentdict)
-st.table(studentdict)
+    st.write(studentdict)
+    st.table(studentdict)
