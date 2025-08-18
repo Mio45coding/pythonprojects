@@ -33,3 +33,6 @@ if st.button('Check student scores'):
     elif average<60:
         grade='Participant'
     st.write(name,'your total score is',totalscore,'and your average is ',average,'. Your achievement badge is ',grade)
+
+
+
